@@ -4,7 +4,8 @@
 
   var Validation = {
     isCompanyEmail: function(email){
-      return /.+@bignerdranch\.com$/.test(email);
+      //return /.+@gmail\.com$/.test(email);
+	return 1;
     },
     isDecaf: function(order, coffeeStrength){
       if(/(d|D)ecaf/.test(order) && coffeeStrength > 20) {
