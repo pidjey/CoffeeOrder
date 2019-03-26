@@ -1,1 +1,1 @@
-browser-sync start --server --browser "chromium" --files "stylesheets/*.css, *.html, scripts/*.js"
+browser-sync start --server --files "stylesheets/*.css, *.html, scripts/*.js"
